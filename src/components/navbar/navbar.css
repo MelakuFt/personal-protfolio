@@ -1,0 +1,117 @@
+.mus__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 0.5rem 1rem ;
+} 
+.mus__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.mus__navbar-links_logo {
+    margin-right: 10rem;
+}
+.mus__navbar-links_logo h1{
+  align-items: center;
+  font-family: 'Rufina';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
+  text-align: center; 
+  color: #fff;
+}
+.mus__navbar-links_container {
+    display: flex;
+    flex-direction: row;
+}
+.mus__navbar-links_container ::after {
+     content: '';
+     display: block;
+     height: 3px;
+     width: 0;
+     background: transparent;
+     transition: all 0.5s ease;
+}
+.mus__navbar-links_container :hover::after {
+    width: 100%;
+    background: black;
+}
+
+
+.mus__navbar-contact {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 8rem;
+ 
+}
+
+
+.mus__navbar-links_container p,
+.mus__navbar-menu_container p {
+   color: #fff;
+   font-family: var(--font-family);
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 25px;
+   text-transform: capitalize;
+
+   margin: 0 1rem;
+   cursor: pointer;
+}
+.mus__navbar-menu {
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+}
+.mus__navbar-menu svg {
+    cursor: pointer;
+}
+.mus__navbar-menu_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    text-align: end;
+    background: var(--color-footer);
+    padding: 2rem;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    margin-top: 1rem;
+    min-width: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0, 0,0.2) ;
+}
+@media screen and (max-width: 1050px) {
+    .mus__navbar-links_container {
+        display: none;
+    }
+    .mus__navbar-menu {
+        display: flex;
+    }
+}
+@media screen and (max-width: 700px) {
+    .mus__navbar {
+        padding: 2rem 4rem;
+    }
+}
+    
+@media screen and (max-width: 550px) {
+    .mus__navbar {
+        padding: 1.5rem;
+    }
+    .mus__navbar h1 {
+        font-size: 11px;
+    }
+    .mus__navbar img {
+        width: 37px;
+    }
+    .mus__navbar-menu_container {
+        top: 20px;
+    }
+}

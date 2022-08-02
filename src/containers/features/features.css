@@ -1,0 +1,157 @@
+.mus__service{
+   
+    background: #38382C8A;
+}
+.mus__service-head{
+    margin-left: -0.5rem;
+    margin-top: -1rem;
+}
+.mus__service_sep {
+  
+    display: flex;
+   
+    flex-direction: row;
+    
+    background: linear-gradient(to bottom,  #1A1212 0,  #1A1212 100%) no-repeat ;
+    background-size: calc(100%-300px) calc(100%-300px);
+  
+    margin-top: 1rem;
+    padding: 1rem 1rem;
+}
+.mus__service_com {
+    display: flex;
+   
+    flex-direction: row;
+    
+    background: linear-gradient(to bottom,  #1A1212 0,  #1A1212 100%) no-repeat ;
+    background-size: calc(100%-300px) calc(100%-300px);
+  
+   margin-top: 1rem;
+}
+.mus__service_com-web h2 {
+    font-family: var(--font-family);
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+
+    margin-bottom: 0.3rem;
+}
+
+
+.mus__service_com-web p {
+    font-family: var(--font-family);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    
+    margin-bottom: 0.1rem;
+}
+.mus__service_com img {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+.mus__service_sep-componet {
+    margin-left: 1rem;
+}
+.mus__service_com-web {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.mus__service_sep-componet h2 {
+    font-family: var(--font-family);
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+
+    margin-bottom: 0.3rem;
+
+}
+.mus__service_sep-componet p {
+    font-family: var(--font-family);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    
+    margin-bottom: 0.1rem;
+  
+}
+.mus__service-sep img {
+    margin-top: 2rem;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+}
+
+.mus__service-head h1 {
+    font-family: var(--font-family);
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+
+    margin-bottom: 0.3rem;
+}
+.mus__service-head p {
+    font-family: var(--font-family);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+@media screen and (max-width: 420px) {
+    .mus__service-head {
+        margin-right: 1rem;
+    }
+    .mus__service-head h1{
+        font-size: 30px;
+    }
+    .mus__service-head p {
+        font-size: 15px;
+    }
+
+    .mus__service_sep {
+        display: flex;
+        flex-direction: column;
+        margin-left: -1rem ;
+        padding: 1rem 2rem;
+        margin-top: 1rem;
+    }
+    .mus__service_sep img {
+        width: 50%;
+        height: 40%;
+    }
+    .mus__service_sep-componet {
+        margin-top: 1rem;
+    }
+    .mus__service_sep-componet h2 {
+        font-size: 20px;
+    }
+    .mus__service_sep-componet p {
+        font-size: 15px;
+        font-weight: normal;
+    }
+
+    .mus__service_com {
+        display: flex;
+        flex-direction: column;
+        margin-left: -1rem ;
+        padding: 1rem 2rem;
+        
+    }
+    .mus__service_com img {
+        width: 50%;
+        height: 50%;
+        margin-top: -0.5rem;
+    }
+    .mus__service_com-web {
+        margin-top: -0.5rem;  
+    }
+    .mus__service_com-web h2 {
+        font-size: 20px;
+    }
+    .mus__service_com-web p {
+        font-size: 15px;
+        font-weight: normal;
+        margin-bottom: 1rem;
+        
+    }
+}
