@@ -11,4 +11,14 @@
   --color-blog: #042c54;
   --color-text: #81AFDD;
   --color-subtext: #FF8A71;
+  --color-bgcontact:#1f1f38;
+  --color-white: #fff;
+  --color-light: rgba(255, 255, 255, 0.6);
+  --color-bg-variant: #2c2c66;
+  --color-primary-variant:rgba(255, 255, 255, 0.4);
+  --color-primary: #031B34;
+  --container-width-lg: 75%;
+  --container-width-ms: 90%;
+
+  --transition: all 400ms ease;
 }

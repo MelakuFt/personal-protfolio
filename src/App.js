@@ -1,5 +1,5 @@
 import React from 'react'
-import { Features, Footer, Project, Header } from './containers'; 
+import { Features, Contact, Project, Header, Footer } from './containers'; 
 import {Brand, Navbar} from './components';
 import './App.css';
 
@@ -14,6 +14,7 @@ return (
       <Brand />
       <Features />
       <Project />
+      <Contact />
       <Footer />
     </div>
   )

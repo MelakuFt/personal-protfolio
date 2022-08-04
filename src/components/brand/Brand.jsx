@@ -1,60 +1,49 @@
 import React from 'react';
 import './brand.css';
-import { ngo1, ngo2, ngo3, ngo4, ngo5, ngo6, ngo7, css3, 
-  html5, git, nextjs, figma, reactjs, js  } from './import';
+import {  html, css, github, nextjs, figma, react, js  } from './import';
 const Brand = () => {
   return (
-    <div className='mus__brand section__padding' id="My">
-      <h1>My Proficiency</h1>
-      <div className='mus__brand-first'>
-      <img  src={ngo1} alt="ngo1" />
-     <div className='mus__brand-second'>
-       <img  src={js} alt="js" /> 
-     </div>
-      </div>
-      <h3>JavaScript</h3>
-      <div className='mus__brand-first'>
-      <img src={ngo2} alt="ngo2" />
-      <div className='mus__brand-second'>
-      <img src={reactjs} alt="reactjs" />
-      </div> 
-      </div>
-     <h3>React JS</h3>
-      <div className='mus__brand-first'>
-      <img src={ngo3} alt="ngo3" />
-      <div className='mus__brand-second'>
-      <img src={nextjs} alt="nextjs" />
-      </div>
-      </div>
-      <h3>Next.js</h3>
-      <div className='mus__brand-first'>
-      <img src={ngo4} alt="ngo4" />
-      <div className='mus__brand-second'>
-      <img src={css3} alt="css3" />
-      </div>
-      </div>
-      <h3>CSS3</h3>
-      <div className='mus__brand-first'>
-      <img src={ngo5} alt="ngo5" />
-      <div className='mus__brand-second'>
-      <img src={html5} alt="html5" />
-      </div>
-      </div>
-      <h3>HTML5</h3>
-      <div className='mus__brand-first'>
-      <img src={ngo6} alt="ngo6" />
-      <div className='mus__brand-second'>
-      <img src={git} alt="git" />
-      </div>
-      </div>
-      <h3>Git</h3> 
-      <div className='mus__brand-first'>
-      <img src={ngo7} alt="ngo7" />
-      <div className='mus__brand-second'>
-      <img src={figma} alt="figma" />
-      </div>
-      </div>
-      <h3>Figma</h3>
+    <div className='mus__brand section__padding ' id="My">
+     
+      <h2>My Proficiency</h2>
+        <div className='mus__brand-head'>
+          <h3>Experience</h3>
+          <p>These are the technologies I've worked with</p>
+        </div>
+        
+        <div className='mus__brand_components'>
+          <div className='mus__brand_component-html'>
+              <img src={html} alt="html icon" />
+              <p>HTML</p>
+          </div>
+          <div className='mus__brand_component-css'>
+              <img src={css} alt="css icon" />
+              <p>CSS</p>
+          </div>
+          <div className='mus__brand_component-js'>
+              <img src={js} alt="js icon" />
+              <p>JavaScript</p>
+          </div>
+          <div className='mus__brand_component-react'>
+              <img src={react} alt="react icon" />
+              <p>ReactJs</p>
+          </div>
+          <div className='mus__brand_component-next'>
+              <img src={nextjs} alt="next icon" />
+              <p>Next.js</p>
+          </div>
+          <div className='mus__brand_component-git'>
+              <img src={github} alt="git icon" />
+              <p>GitHub</p>
+          </div>
+          <div className='mus__brand_component-figma'>
+              <img src={figma} alt="figma icon" />
+              <p>Figma</p>
+          </div>
+
+        </div>
+      
+      
      
       
       
